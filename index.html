@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reproductor de Música</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Selecciona una Canción</h1>
+        <select id="musicSelect">
+            <option value="">--Elige una canción--</option>
+            <option value="cancion1.mp3">Canción 1</option>
+            <option value="cancion2.mp3">Canción 2</option>
+            <option value="cancion3.mp3">Canción 3</option>
+        </select>
+        <button id="playButton">Reproducir</button>
+        <audio id="audioPlayer" controls></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
